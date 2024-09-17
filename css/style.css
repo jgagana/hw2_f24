@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana, sans-serif; !important;
     background-color: #000000;
     color: #FFFFFF;
     margin: 20px 20px 0 20px;
@@ -48,14 +48,19 @@ div {
     border-bottom: 2px solid #FFFFFF;
 }
 
+.blue h2 {
+    color: #F0F0F0; 
+}
+
 .blue {
-    background-color: #0000FF;
-    color: #C4C4C4;
+    background-color: #0000FF; 
+    color: #F0F0F0; 
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid #FFFFFF;
     border-top: 2px solid #FFFFFF;
 }
+
 
 .yellow {
     background-color: #FFFF00;
