@@ -55,7 +55,6 @@ div {
     color: #C4C4C4; 
     text-align: left; 
     margin-right: 50px; 
-    
     border: none; 
     border-right: 5px solid #FFFFFF; 
     border-top: 2px solid #FFFFFF; 
@@ -76,14 +75,18 @@ div {
     margin-left: 50px;
     border-left: 5px solid #FFFFFF;
     border-bottom: 2px solid #FFFFFF;
+    border-right: none;
+    border-top: none;
 }
 
 .green {
-    background-color: #008500; 
+    background-color: #00D800; 
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid #FFFFFF;
     border-top: 2px solid #FFFFFF;
+    border-left: none;
+    border-bottom: none;
 }
 
 footer {
